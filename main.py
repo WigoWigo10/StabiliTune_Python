@@ -3,7 +3,7 @@ from optimize_p_controller import optimize_p_controller
 from plot_response import plot_step_response_with_info
 
 # Sistema de malha aberta
-G = ctrl.TransferFunction([1], [1, -2])
+G = ctrl.TransferFunction([1], [1, 2, 25])
 
 # Especificação do tempo de acomodação desejado (em segundos)
 tempo_desejado = 2.0

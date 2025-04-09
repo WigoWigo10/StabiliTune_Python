@@ -1,6 +1,6 @@
 % Definindo o sistema original (planta)
-num_G = [0.1];  % Numerador da função de transferência
-den_G = [2 ,1]; % Denominador da função de transferência
+num_G = [1];  % Numerador da função de transferência
+den_G = [1 ,2, 25]; % Denominador da função de transferência
 
 G = tf(num_G, den_G); % Criando a função de transferência da planta
 G
